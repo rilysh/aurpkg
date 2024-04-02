@@ -1,0 +1,21 @@
+** aurpkg
+A small and lightweight AUR helper.
+
+** Usage
+#+begin_src text
+aurpkg - A small and lightweight AUR helper
+Usage: aurpkg [OPTIONS]..
+
+Options:
+  -s, --search	Search for a package in the AUR repository
+  -i, --info	Retrieve information about a package
+  -g, --get	Download anything from a specified URL
+  -h, --help	Display this help message
+
+Optional:
+  -c, --colors	Enable colored output
+#+end_src
+
+** Building
+To build this, please install =libcurl= (for HTTPS request)
+and =parson= (for JSON parsing) libraries.
